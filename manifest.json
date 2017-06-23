@@ -1,0 +1,47 @@
+{
+    "manifest_version": 2,
+
+    "version": "0.0.1",
+
+    "name": "Translate to Hoobastank Cds",
+    "short_name": "vin2hoob",
+    "description": "Translate to Hoobastank Cds",
+    "homepage_url": "https://petlibrary.bandcamp.com",
+
+    "browser_action": {
+        "default_icon": "./src/action/icon.png",
+        "default_title": "vin2hoob"
+    },
+
+    "background": {
+        "scripts": [
+            "./build/background.js"
+        ],
+        "persistent": true
+    },
+
+    "icons": {
+       "16":  "./src/action/icon.png",
+       "48":  "./src/action/icon.png",
+       "128": "./src/action/icon.png"
+    },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": [],
+      "js": ["./src/content/replace.js"]
+    }
+  ],
+
+    "permissions": [
+        "tabs",
+        "storage",
+        "http://*/",
+        "https://*/"
+    ],
+
+    "web_accessible_resources": [
+        "*"
+    ]
+}
