@@ -1,2 +1,2 @@
-# vin2hoob
-chrome extension that converts the word 'vinyls' to 'Hoobastank cds'
+# REDUX EXT
+barebones repo for redux extension

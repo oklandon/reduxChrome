@@ -5,7 +5,7 @@ import { Store } from 'react-chrome-redux';
 import Injectable from './Injectable';
 
 
-const proxyStore = new Store({ portName: 'JIDPort' });
+const proxyStore = new Store({ portName: 'port' });
 
 if (document.querySelector('#reactApp')) {
     proxyStore.dispatch({

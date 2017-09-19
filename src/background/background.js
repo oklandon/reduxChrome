@@ -1,3 +1,1 @@
-document.on('ready',function(){
-  /* do what you want */
-});
+alert('Background script loaded!');
