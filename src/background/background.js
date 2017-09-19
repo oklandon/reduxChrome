@@ -1,1 +1,3 @@
-document.body.innerHTML = document.body.innerHTML.replace(/(vinyls)/ig, 'Hoobastank CDs');
+document.on('ready',function(){
+  /* do what you want */
+});

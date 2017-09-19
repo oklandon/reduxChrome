@@ -3,14 +3,14 @@
 
     "version": "0.0.1",
 
-    "name": "Translate to Hoobastank Cds",
-    "short_name": "vin2hoob",
-    "description": "Translate to Hoobastank Cds",
-    "homepage_url": "https://petlibrary.bandcamp.com",
+    "name": "Redux Chrome Extension",
+    "short_name": "rce",
+    "description": "description",
+    "homepage_url": "https://website.com",
 
     "browser_action": {
         "default_icon": "./src/action/icon.png",
-        "default_title": "vin2hoob"
+        "default_title": "title"
     },
 
     "background": {
@@ -30,7 +30,7 @@
     {
       "matches": ["<all_urls>"],
       "css": [],
-      "js": ["./src/content/replace.js"]
+      "js": ["./src/content/app.js"]
     }
   ],
 

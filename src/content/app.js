@@ -1,0 +1,1 @@
+/* your content script if you want it */

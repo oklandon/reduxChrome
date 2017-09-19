@@ -41,7 +41,7 @@ class Injectable extends React.Component {
         `;
 
         return (
-            <StyledDiv id='JID-injectable'>
+            <StyledDiv id='injectable'>
                 <iframe
                     name            = 'ext'
                     src             = { chrome.extension.getURL('src/action/popup/popup.html') }
