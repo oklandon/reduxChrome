@@ -1,2 +1,2 @@
-# REDUX EXT
-barebones repo for redux extension
+# Redux Chrome Extension Template
+barebones Redux Chrome extension
